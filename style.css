@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    height: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.preferences h2,
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.preferences label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.preferences input,
+.preferences select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#sample-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sample-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* List style classes */
+.expanded li {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.compact li {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.grid li {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
